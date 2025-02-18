@@ -1,15 +1,15 @@
-#Declare my constants (name of item, number of items purchased, price of items)
+#Declare my constants (price of items)
 COFFEE_PRICE = 5
 MUFFIN_PRICE = 4
-TAX = int(0.06)
+TAX = 0.06
 
 #Display café name
 print('***************************************')
 print('My Coffee and Muffin Shop')
 
 #Create input variables for customer
-coffee = input("Number of coffees bought?")
-muffin = input("Number of muffins bought?")
+coffee = int(input("Number of coffees bought? "))
+muffin = int(input("Number of muffins bought? "))
 
 #Processing: Calculate the total cost
 coffee_total = coffee * COFFEE_PRICE
@@ -19,6 +19,10 @@ total_cost = total_tax + coffee_total + muffin_total
 
 #Output: Display the receipt to the customer
     #display name of item, number of items bought, price, and total cost
-print('***************************************\n***************************************')
+print('***************************************\n\n***************************************')
 print('My Coffee and Muffin Shop Receipt')
-print(coffee "Coffee at $" COFFEE_PRICE "each: $" coffee_total)
+print(str(coffee) + ' Coffee at $' + str(COFFEE_PRICE) + ' each: $' + str(coffee_total))
+print(str(muffin) + ' Muffin at $' + str(MUFFIN_PRICE) + ' each: $' + str(muffin_total))
+print('6% tax: $' + str(total_tax))
+print('---------')
+print('Total: ' + str(total_cost))
