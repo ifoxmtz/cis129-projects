@@ -16,7 +16,7 @@ with open('grades.txt', mode='w') as grades:
             print('Enter a non-negative integer.')
 
 #Read grades from grades.txt and display individual grades, total, count and average.
-total = 0 #definte variable and set to zero
+total = 0 #define variable and set to zero
 count = 0
 
 with open('grades.txt', 'r') as display:
