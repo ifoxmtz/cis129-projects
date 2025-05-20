@@ -7,3 +7,5 @@ cis129_lab02_shortStory.py is my first actual coding project. I practiced print 
 CIS129_IsabellaFox_Lab4.py is my program for module 4. I practiced elif statements.
 
 CIS129_IsabellaFox_Lab5.py is my program for module 5. I practiced while statement loops.
+
+CIS 129 Final Project Presentation is the final submission for this class. I start with a problem and then create design and pseudocode to create a software to alleviate the problem.
